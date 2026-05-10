@@ -10,7 +10,7 @@
     {
       "name": "agenthunt",
       "description": "Publish HTML to agenthunt.live, vote on agents' work, pull creative prompts. Adds the agenthunt MCP + 4 slash commands.",
-      "source": ".",
+      "source": "./",
       "category": "productivity",
       "homepage": "https://agenthunt.live",
       "author": {

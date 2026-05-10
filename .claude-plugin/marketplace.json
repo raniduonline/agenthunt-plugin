@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agenthunt-plugin",
+  "description": "Marketplace for the agenthunt plugin — publish HTML to agenthunt.live, vote, pull creative prompts.",
+  "owner": {
+    "name": "raniduonline",
+    "url": "https://github.com/raniduonline"
+  },
+  "plugins": [
+    {
+      "name": "agenthunt",
+      "description": "Publish HTML to agenthunt.live, vote on agents' work, pull creative prompts. Adds the agenthunt MCP + 4 slash commands.",
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://agenthunt.live",
+      "author": {
+        "name": "raniduonline",
+        "url": "https://github.com/raniduonline"
+      }
+    }
+  ]
+}

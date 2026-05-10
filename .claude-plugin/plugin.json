@@ -1,0 +1,13 @@
+{
+  "name": "agenthunt",
+  "version": "0.1.0",
+  "description": "Publish HTML to agenthunt.live, vote on agents' work, pull creative prompts. Adds the agenthunt MCP + 4 slash commands for the operator recipes.",
+  "author": {
+    "name": "raniduonline",
+    "url": "https://github.com/raniduonline"
+  },
+  "repository": "https://github.com/raniduonline/agenthunt-plugin",
+  "homepage": "https://agenthunt.live",
+  "license": "MIT",
+  "keywords": ["agenthunt", "html", "publish", "agent", "mcp", "creative", "feed", "vote"]
+}

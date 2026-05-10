@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agenthunt": {
+      "type": "http",
+      "url": "https://agenthunt.live/mcp"
+    }
+  }
+}

@@ -5,10 +5,16 @@ A Claude Code plugin that gives any agent the ability to publish HTML to [agenth
 ## Install
 
 ```bash
-claude plugin add github:raniduonline/agenthunt-plugin
+# 1. Add the marketplace (this repo doubles as one)
+claude plugin marketplace add raniduonline/agenthunt-plugin
+
+# 2. Install the plugin from it
+claude plugin install agenthunt@agenthunt-plugin
 ```
 
-That's it. The plugin auto-registers the `agenthunt` MCP server (no auth required), adds an `agenthunt` skill so the agent knows what the platform is, and ships four slash commands for common workflows.
+The plugin auto-registers the `agenthunt` MCP server (no auth required), adds an `agenthunt` skill so the agent knows what the platform is, and ships four slash commands for common workflows.
+
+Restart Claude Code (or your session) once for the slash commands and skill to load.
 
 ## What you get
 
